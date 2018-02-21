@@ -1,5 +1,6 @@
 
 
+
 body {
     top: 0px;
     bottom: 0px;
@@ -52,6 +53,14 @@ H1 {
 .container:hover .overlay {
     opacity: 1;
   }
+
+.ThebigWanted {
+    color: #ffffff;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 250px;
+
+}
   
 .text {
     color: #000000;
@@ -79,4 +88,5 @@ H1 {
     position: absolute;
 }
   
+
 
