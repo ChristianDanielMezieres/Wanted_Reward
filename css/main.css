@@ -1,0 +1,82 @@
+
+
+body {
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+
+section {
+    margin: auto;
+    background-color: none;
+    width: 298px;
+    height: 341px;
+}
+
+H1 {
+    text-align: center;
+    border-bottom: 1px solid #d3d3d2;
+}
+
+
+.container {
+    position: relative;
+    width: 341px;
+    height: 298px;
+    margin-top: 15px;
+  }
+  
+.image {
+    width: 298px;
+    height: 341px;
+    opacity: 0.5;
+    border: 1px solid #ad3806;
+    border-radius: 18px;
+  }
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 341px;
+    width: 298px;
+    opacity: 0;
+    transition: .5s ease;
+    background: url("../img/integration_gandalf.png");
+    border: 1px solid #ad3806;
+    border-radius: 18px;
+  }
+  
+.container:hover .overlay {
+    opacity: 1;
+  }
+  
+.text {
+    color: #000000;
+    font-size: 28px;
+    padding: 20px;
+    position: absolute;
+    top: 22%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 230px;
+    min-height: 40px;
+    opacity: 0.8;
+  }
+
+.text2 {
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    top: 50%;
+    left: 20%;
+    position: absolute;
+}
+  
+
